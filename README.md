@@ -68,6 +68,10 @@ Attempting to import the SQL database and then table into the Jupyter notebook, 
 
 Therefore, researching SQLAlchemy on (GitHub)[https://github.com/sqlalchemy/sqlalchemy]
 
+I had a huge amount of trouble doing this as it turns out GitHub (linux) does not support the use of MySQL(windows version on the wamp server on my laptop) so after a lot of trouble shooting with (ChatGPT)[https://chatgpt.com/share/6959b211-f014-800d-b3bc-98aaaf991e3e] and (ChatGTP)[https://chatgpt.com/share/6959b22d-b120-800d-ac1a-556280e33075], I had a thought that if I could work on my repo on my local VS Code, this may work (asking (ChatGPT)[https://chatgpt.com/share/6959b19a-10ec-800d-ae43-7af42a2960c2]). So I opened the repo and after git pull, proceeded to import the database table and this worked! Finally!!!!
+
+To make this permanent in my repo, I will save the table to a `.csv.` file at the `root` of the repository.
+
 ### Part 3: Data Analysis
 
 ### Part 4: Visualisation  
