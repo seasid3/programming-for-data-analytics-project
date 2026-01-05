@@ -63,7 +63,10 @@ Following this work,  a new table `merged_students` is created in the `students`
 
 Now the database is ready for use on myphpadmin/MySQL, I will pick up my work in the student_outcomes.ipynb notebook for the analysis and presentation steps.
 
-I will import the data table into my jupyter notebook before conducting analysis.
+Attempting to import the SQL database and then table into the Jupyter notebook, I encounter the following error "C:\Users\orlaw\AppData\Local\Temp\ipykernel_1528\1911649809.py:14: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql(query, conn)"
+
+Therefore, researching SQLAlchemy on (GitHub)[https://github.com/sqlalchemy/sqlalchemy]
 
 ### Part 3: Data Analysis
 
