@@ -72,6 +72,15 @@ I had a huge amount of trouble doing this as it turns out GitHub (linux) does no
 
 To make this permanent in my repo, I will save the table to a `.csv.` file at the `root` of the repository.
 
+
+
+Importing the SQL database and tables so they can be used in my codespace  ipynb:
+
+All of above conversation: https://chatgpt.com/share/695c51ca-c5d4-800d-91fb-ac7140f42fc6
+
+tidy up code with last bit of code it gave.
+
+
 ### Part 3: Data Analysis
 
 ### Part 4: Visualisation  
