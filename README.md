@@ -30,15 +30,15 @@ python -m pip install -r requirements.txt
 ## Project Work 
 
 ### Background  
-The motivating factor for undertaking this H.Dip. programme was to acquire hte skills required to merge datasets using a shared linking key (student ID) and to analyze the resulting integrated dataset, using coding. This objective arose from observing the work of a statistician who was employed to conduct these tasks in a previous large-scale work project, prompting a strong desire to develop the capacity to do this work.   
+The motivating factor for undertaking this H.Dip. programme was to acquire the skills required to merge datasets using a shared linking key (student ID) and to analyze the resulting integrated dataset, using coding. This objective arose from observing the work of a statistician who was employed to conduct these tasks in a previous large-scale work project, prompting a strong desire to develop the capacity to do this work.   
 Accordingly, this this project is designed to simulate a basic student outcomes research study, mimicking the previous project. It encompasses an initial/first use of an SQL database for data storage, the integration of datasets via a key identified data, data-clean up, and subsequent analysis and presentation using Python packages within a Jupyter notebook environment. 
 
 
 ### Part 1: Data Acquisition and Database Creation
 
-Two Kaggle datasets which could adequately similuate project data, were selected: the (Student Records dataset)[https://www.kaggle.com/datasets/pratikprasad18/student-records] and the (Student Performance and Behavior dataset)[https://www.kaggle.com/datasets/mahmoudelhemaly/students-grading-dataset]. To aid assessment, these datasets are saved as CSV files in the repository.
+Two Kaggle datasets which could adequately similuate project data, were selected: the [Student Records dataset](https://www.kaggle.com/datasets/pratikprasad18/student-records) and the [Student Performance and Behavior dataset](https://www.kaggle.com/datasets/mahmoudelhemaly/students-grading-dataset). To aid assessment, these datasets are saved as CSV files in the repository.
 
-To determine the best use of this data, SQL lectures were reviewed, the (W3 Schools Tutorial)[https://www.w3schools.com/sql/] was completed, and guidance was consulted on to (import Kaggle databases into  MySQL)[https://www.youtube.com/watch?v=MzbtTv1TeKU]. 
+To determine the best use of this data, SQL lectures were reviewed, the [W3 Schools Tutorial](https://www.w3schools.com/sql/) was completed, and guidance was consulted on to [import Kaggle databases into  MySQL](https://www.youtube.com/watch?v=MzbtTv1TeKU). 
 
 Both datasets were downloaded locally for inspection. This allowed verification that a common linking variable (Student ID) could be used for data integration. One dataset required the renaming of the Student ID column to ensure consistency between the two datasets. The Student Records dataset contained 10,000 entries, while the Student Performance and Behavior dataset had 5,000 entries. Therefore, each dataset was modified to contain 5000 entries.
 The resulting `CSV` files were:  
