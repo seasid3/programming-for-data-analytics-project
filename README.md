@@ -93,7 +93,7 @@ However, this approach did not resolve the issue, as the local MySQL database re
 
 The `students` database was exported from the local WAMP server as a `students.sql` dump  using `mysqldump` and then manually transferred to the repository root within the codespace. A `students` database was created within the MySQL container, and privileges were granted to a non-root user (`analyst`) to enforce the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege). The `students.sql` dump was then imported into the container. This included the `merged_students` table required for analysis.  
 
-Finally, the required Python packages (`SQAlchemy`, `PyMySQL`, `cryptography`, and `pandas`) were installed within the Jupyter notebook. A SQLAlchemy engine was used to connect to the MySQL containers, and successful import was validated by loading the `merged_students` table into a pandas DataFrame, and inspected using the `head()` function. 
+Finally, the required Python packages (`SQAlchemy`, `PyMySQL`, `cryptography`, and `pandas`) were installed within the Jupyter notebook. A SQLAlchemy engine was used to connect to the MySQL containers, and successful import was validated by loading the `merged_students` table into a pandas DataFrame, and inspected. 
 
 At this stage, the `merged_students` dataset was accessible and ready for analysis. 
 
