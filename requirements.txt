@@ -1,5 +1,9 @@
 numpy    
 pandas   
-mysql-connector-python   
-sqlalchemy  
+sqlalchemy
 pymysql 
+matplotlib
+seaborn
+scikit-learn
+scipy
+cryptography

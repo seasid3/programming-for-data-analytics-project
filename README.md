@@ -1,8 +1,13 @@
 # programming-for-data-analytics-project
-This repository acquires a) student data and d) student outcomes data from Kaggle, loads these two datasets as tables into a MySQL database using the MySQL Console (WAMP server). A merged database using the two datasets is created and the data cleaned. The clean merged dataset is loaded into the `student_outcomes.ipynb` file using SQLAlchemy (as it is not possible to read MySQL databases on the WAMP server/local computer into a GitHub Codespace). The merged dataset is analysed and plotted in the Jupyter notebook.
+This repository contains a data analytics workflow using SQL databases and Python. Two student datasets (student data and student outcomes data) are acquired from Kaggle, merged using a shared identifier (StudentID), stored in a MySQL database, pulled into a Jupyter notebook and analyzed and results plotted within the Jupyter notebook using Python. 
 
 ## Purpose  
-This work aims to demonstrate competencies in data acquisition, data clean-up, analysis and visualization. 
+The purpose of this project is to demonstrate competencies in:  
+- Data acquisition,   
+- SQL database design and querying,    
+- Data merging/integration,  
+- Data cleaning and validation of the dataset,  
+- Statistical analysis and visualization using Python.  
 
 ## Requirements
 The code was developed and tested using Python 3.12.1. The following external dependencies are required (see requirements.txt file):   
