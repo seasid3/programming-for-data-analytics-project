@@ -36,7 +36,7 @@ Accordingly, this this project is designed to simulate a basic student outcomes 
 
 ### Part 1: Data Acquisition and Database Creation
 
-Two Kaggle datasets which could adequately similuate project data, were selected: the (Student Records dataset)[https://www.kaggle.com/datasets/pratikprasad18/student-records] and the (Student Performance and Behavior dataset)[https://www.kaggle.com/datasets/mahmoudelhemaly/students-grading-dataset].
+Two Kaggle datasets which could adequately similuate project data, were selected: the (Student Records dataset)[https://www.kaggle.com/datasets/pratikprasad18/student-records] and the (Student Performance and Behavior dataset)[https://www.kaggle.com/datasets/mahmoudelhemaly/students-grading-dataset]. To aid assessment, these datasets are saved as CSV files in the repository.
 
 To determine the best use of this data, SQL lectures were reviewed, the (W3 Schools Tutorial)[https://www.w3schools.com/sql/] was completed, and guidance was consulted on to (import Kaggle databases into  MySQL)[https://www.youtube.com/watch?v=MzbtTv1TeKU]. 
 
@@ -81,7 +81,28 @@ At this stage, the `merged_students` dataset was accessible and ready for analys
 
 ### Part 3: Data Analysis
 
+The following analysis was carried out using MySQL commands within the MySQL container in the Codespace:
 
+a) Descriptive statistics 
+Initial database investigations and determination of basic measures (as well as references listed below, co-pilot assisted while coding):   
+
+- The total number of students in the dataset ((W3Schools)[https://www.w3schools.com/sql/func_mysql_count.asp]),   
+- The number of males and females in the dataset ((Stack Overflow)[https://stackoverflow.com/questions/17119151/count-male-female-and-total]),    
+- The average age of all students ((W3Schools)[https://www.w3schools.com/sql/sql_avg.asp]),  
+- The average age for males and females,  
+- The average Total Score,   
+- The average Total Score for males and for females,  
+- The sum of students in each department,    
+- Average attendance for all students,  
+- Average attendance for males and females,
+
+
+
+b) Determining relationships between variables  
+- Investigation for relationships between variables (including, attendance, sex, project score, midterm score) and final scorem  
+
+c) Exploring Variance
+- MANOVA
 
 ### Part 4: Visualisation  
 
