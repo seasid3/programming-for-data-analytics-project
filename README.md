@@ -3,7 +3,7 @@ This repository contains a data analytics workflow using SQL database management
 
 ## Background
 The motivation for undertaking this H.Dip. programme was to acquire the practical skills required to merge datasets using a shared linking key (student ID) and to analyze the resulting integrated 
-dataset, using code. In a previous large-scale work-place project, these tasks were conducted by a statistician due to the scale and complexity of the dataset. This project replicates that workflow on a smaller, simulated dataset, enabling practical learning with respect to database design and statistical analysis. 
+dataset, using code. In a previous large-scale work-place project, these tasks were conducted by a statistician due to the scale and complexity of the dataset. This project replicates that workflow on a smaller, simulated dataset, enabling practical learning with respect to database design and conducting statistical analysis through Python. 
 
 ## Purpose  
 The purpose of this project is to simulate a basic student outcomes research study and to demonstrate competency in:  
